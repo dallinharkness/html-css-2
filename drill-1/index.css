@@ -1,0 +1,52 @@
+.header{
+    background-color: rgb(66, 66, 66);
+    height: 20vh;
+    width:100%;
+    position: fixed;
+    display: flex;
+    
+
+
+}
+
+
+.box{
+    display: inline-block;
+    
+
+    
+}
+
+#first-section{
+    height: 700px;
+    width: 300px;
+    margin:0px;
+    background-color:lightgray;
+    
+    
+    
+}
+
+#second-section{
+    height: 700px;
+    width: 68%;
+    margin: 0%;
+
+    background-color: gray;
+    
+
+}
+
+#third-section{
+    height: 700px;
+    width: 300px;
+    background-color:lightgray ;
+    margin: 0%;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    bottom: 10px;
+}
