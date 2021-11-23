@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-color: white;
+    padding: 30px; /*padding creats an inside border so everything in the body does not touch the edge of the page.*/
+
+}
+
+.section1{
+    border: 5px solid black; /*solid is the border style*/
+    padding: 10px;
+    display: flex; /*it can be flex because this is the parent to the child*/
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.square1 {
+    height: 100px;
+    background-color: violet;
+    width: 50px; /*the content of square one is making the section larger*/
+}
+
+.square2{
+    background-color: green;
+    height: 150px;
+    width: 300px;
+    margin: 0 50px; /*margin creates the space of 50px between the objects.*/
+
+}
+
+.circle{
+    background-color: lightskyblue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.section2{
+    border: 5px dotted gray;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.shadowsquare{
+    width: 100%; /*this will make the box go all the way to where the padding is*/
+    height: 200px;
+    background-color: lightyellow;
+    box-shadow: black 10px 10px 5px 0px; /*you need to px dimension or it wont work*/
+
+}
+
+.section3{
+    width: 50%; /*this will fill up half of the page*/
+    border: 2px solid lightgray;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    box-shadow: black 3px 3px 5px 0px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    color: cornflowerblue;
+    letter-spacing: 10px;
+}

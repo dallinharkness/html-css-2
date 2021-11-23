@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    padding: 50px;
+}
+
+header{
+    background-color: lightgray;
+    padding: 25px; /*background-color by itself doesn't do anything until you give it padding*/
+    box-sizing: border-box;
+}
+
+.headersquare{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(0, 122, 236);
+}
+
+.stripe1{
+    /* padding: 50px; */
+    background-color: rgb(0, 122, 236);
+}
+
+.bar{
+    height: 25vh; 
+}
+
+.stripe2{
+    background-color: turquoise;
+}
+
+.stripe3{
+    background-color: lightgreen;
+}
+
+.stripe4{
+    background-color: rgb(248, 248, 90);
+}
+
+button{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 10px;
+    position: fixed; /*position fixed with right and bottom telling it where to be*/
+    cursor: pointer;
+}
